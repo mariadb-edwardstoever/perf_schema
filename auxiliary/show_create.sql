@@ -1,0 +1,20 @@
+use perf_schema;
+select "-- files_by_io";
+show create view files_by_io;
+select "-- statements_history";
+show create view statements_history;
+select "-- statements_history_long";
+show create view statements_history_long;
+select "-- tables_by_statement_type";
+show create view tables_by_statement_type;
+select "-- tables_with_full_table_scans";
+show create view tables_with_full_table_scans;
+select "-- tables_with_unused_indexes";
+show create view tables_with_unused_indexes;
+select "-- users_by_connection";
+show create view users_by_connection;
+select "-- users_by_io_latency";
+show create view users_by_io_latency;
+select "-- users_by_select_statement_latency";
+show create view users_by_select_statement_latency;
+
